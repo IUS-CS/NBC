@@ -1,0 +1,64 @@
+﻿html, body {
+    height: 100%;
+}
+
+.topmargin {
+    margin-top: 50px;
+}
+
+.profiletab {
+    height: 99vh;
+    border-right-style: solid;
+    border-right-color: gray;
+    border-right-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    border-bottom-width: 2px;
+}
+
+.nottab {
+    height: 99vh;
+    border-left-style: solid;
+    border-left-color: gray;
+    border-left-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    border-bottom-width: 2px;
+}
+
+.notifcationholder {
+    background-color: #eaf9f8;
+    height: 150px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:  #b4b4c4;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.notifs {
+    margin-left: 10px;
+    text-align: match-parent;
+}
+
+.biography {
+    background-color: #eaf9f8;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #b4b4c4;
+    height: 150px;
+    margin-bottom: 20px;
+    
+}
+
+
+@media (min-width: 768px) {
+    .navbar-brand.abs
+    {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+        margin:0 auto;
+    }
+}
