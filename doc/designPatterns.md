@@ -1,4 +1,4 @@
-#H1 Design Patterns
+# Design Patterns
 
 *******
 We cannot identify any patterns that we aready are using, but the design patters that we are going to implement in this project are factories, iterators and observers.
