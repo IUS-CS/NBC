@@ -19,7 +19,7 @@
             <div class="navbar-collapse collapse" id="collapsingNavbar">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="" data-target="#myModal" data-toggle="modal">Settings</a>
+                        <a class="nav-link" href="" data-target="#myModal" data-toggle="modal">Profile</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="" data-target="#myModal" data-toggle="modal">Options</a>
@@ -28,11 +28,11 @@
             </div>
         </nav>
 
-        <div class="container-fluid">
+        <div class="flex container-fluid">
             <div class="row">
                 <div class="col-sm-3 bg-light profiletab">
                     <div class="text-center topmargin">
-                        <img src="//placehold.it/125" class="rounded-circle"/>
+                        <img src="//placehold.it/125" class="rounded-circle" style="vertical-align:middle"/>
                         <p>Username Centered</p>
                     </div>
                     <div class="biography">
@@ -41,17 +41,48 @@
                         <p>Look Around and Have some fun!</p>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="text-center topmargin">
-                        <div class
+                <div class="col-sm-6 posttab">
+                    <div class="topmargin">
+                        <div class="totalpostspace">
+                            <article>
+                                <header class="postheader">
+                                    <div>
+                                        <a style="height: 30px; width: 30px;">
+                                            <img src="//placehold.it/45" class="rounded-circle" style="vertical-align:middle"/>
+                                            <span style="">myusername</span>
+                                        </a>
+                                    </div>
+                                </header>
+                                <div class="postimage text-center">
+                                    <a>
+                                        <img src="//placehold.it/400" class="imageinpost"/>
+                                    </a>
+                                </div>
+                                <div class="postcomment">
+                                    <ul>
+                                        <li>
+                                            <a>
+                                                myusername:
+                                            </a>
+                                            <span>Demo words attached to this image. Demo words attached to this image. Demo words attached to this image. Demo words attached to this image.</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </article>
+                        </div>
                     </div>
                 </div>
                 <div class="col-sm-3 bg-light nottab">
                     <div class="topmargin">
                         <div class="notifcationholder">
-                            <div class="row notifs">
-                                <img src="//placehold.it/45" class="rounded-circle" />
-                                <p>Other UserName</p>
+                            <div class="notifs">
+                                <img src="//placehold.it/45" class="rounded-circle" style="vertical-align:middle"/>
+                                <span>otherusername</span>
+                            </div>
+                            <div>
+                                <p style="margin-left: 15px; margin-right: 5px;">
+                                    Notification comment here
+                                </p>
                             </div>
                         </div>
                     </div>
