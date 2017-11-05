@@ -6,6 +6,10 @@
     margin-top: 50px;
 }
 
+.posttab {
+    background-color: #eaf3f7;
+}
+
 .profiletab {
     height: 99vh;
     border-right-style: solid;
@@ -48,9 +52,54 @@
     border-color: #b4b4c4;
     height: 150px;
     margin-bottom: 20px;
-    
+    text-overflow: ellipsis;
 }
 
+.totalpostspace {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+
+.article {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: #b4b4c4;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.postheader {
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #b4b4c4;
+    background-color: white;
+    -webkit-box-align: center;
+}
+
+.postimage {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #b4b4c4;
+}
+
+.postcomment {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #b4b4c4;
+    padding: 5px;
+    background-color: white;
+}
+
+.imageinpost{
+    width: auto;
+    height: 400px;
+}
+
+ul{
+    list-style-type: none;
+}
 
 @media (min-width: 768px) {
     .navbar-brand.abs
